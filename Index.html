@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone by(Adarsh Jha)</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <section>
+        <div id="navbar">
+          <div class="broder">
+            <a href="logo">
+              <img id="logo" src="amazon logo.png" alt="image" />
+            </a>
+          </div>
+          <div class="broder">
+            <small style="color: #ccc;">Deliver to</small> <br />
+            <i class="fa-solid fa-location-dot" id="locationicon"></i
+            ><span><strong>India</strong></span>
+          </div>
+          <div class="searchbox">
+              <select  name="All" id="Option" style="width: 40px;cursor:pointer">
+                <option value="All">All</option>
+                <option value="Books">Books</option>
+                <option value="Fashion">Fashion</option>
+                <option value="Groceries">Groceries</option>
+                <option value="Electronic Goods">Electronic Goods</option>
+                <option value="Groceries">Groceries</option>
+                <option value="Groceries">Groceries</option>
+                <option value="Groceries">Groceries</option>
+                <option value="Headphones">Headphones</option>
+              </select>
+              <input class="nav-search-input" type="text" placeholder="Search Amazon" />
+              <div id="searchicon"><i class="fa-solid fa-magnifying-glass"></i></div>
+          </div>
+          <div class="broder">
+            <span><strong>EN</strong></span>
+            <select name="languaGE" id="LANG" style="width: 15px;cursor:pointer;border:none">
+              <option value="blank"></option>
+              <option value="Hindi">Hindi</option>
+              <option value="English">English</option>
+              <option value="Urdu">urdu</option>
+              <option value="Bengali">Bengali</option>
+              <option value="Gujrati">Gujrati</option>
+            </select>
+          </div>
+          <div class="broder">
+            <small>Hello,sign in</small>
+            <br>
+            <strong>Account & Lists</strong>
+            <select name="" id="" style="width: 15px;cursor:pointer;border:none"></select>
+          </div>
+          <div class="broder"><small>Returns </small><br> <strong> & Orders</strong></div>
+          <div class="broder">
+            <span><i class="fa-solid fa-cart-shopping"></i><strong>Cart</strong></span>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <div id="menubar">
+          <div class="menubar-box1">
+           <div class="broder"><i class="fa-solid fa-bars"></i>All</div>
+           <div class="broder">Today's Deals</div>
+           <div class="broder">Customer Services</div>
+           <div class="broder">Registry</div>
+           <div class="broder">Gift cards</div>
+           <div class="broder">Sell</div>
+          </div>
+          <div class="broder menubar-box2">
+            Shop great deals now
+          </div>
+
+        </div>
+      </section>
+      <hr />
+    </header>
+
+    <main>
+      <section id="Container">
+        <div id="main">
+          <div class="amazonin">
+            <p>
+              You are on amazon.com. You can also shop on Amazon India for
+              millions of products with fast local delivery.
+              <a
+                id="link"
+                href="https://www.amazon.in/?&ext_vrnc=hi&tag=googinhydr1-21&ref=pd_sl_4b3e4wrxds_e&adgrpid=60639568242&hvpone=&hvptwo=&hvadid=617721280315&hvpos=&hvnetw=g&hvrand=11738216523882396302&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061659&hvtargid=kwd-316976912080&hydadcr=5841_2362028"
+                >Click here to go to amazon.in</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="shop-section">
+          <div class="box">
+            <div class="box-content">
+              <h2>Health & Personal Care</h2>
+              <div
+                class="box-img"
+                style="
+                  background-image: url('box1.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <p>Shop now</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-content">
+              <h2>Beauty picks</h2>
+              <div
+                class="box-img"
+                style="
+                  background-image: url('box2.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <p>Shop now</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-content">
+              <h2>Electronics</h2>
+              <div
+                class="box-img"
+                style="
+                  background-image: url('box3.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <p>Shop now</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-content">
+              <h2>New arrivals in Toys</h2>
+              <div
+                class="box-img"
+                style="
+                  background-image: url('box4.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <p>Shop now</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-content">
+              <h2>Discover fashion trend</h2>
+              <div
+                class="box-img"
+                style="
+                  background-image: url('box5.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <p>Shop now</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-content">
+              <h2>For your Fitness Needs</h2>
+              <div
+                class="box-img"
+                style="
+                  background-image: url('box6.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <p>Shop now</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-content">
+              <h2>Home refresh ideas</h2>
+              <div
+                class="box-img"
+                style="
+                  background-image: url('box7.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <p>Shop now</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-content">
+              <h2>Shop Laptops & Tablets</h2>
+              <div
+                class="box-img"
+                style="
+                  background-image: url('box8.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <p>Shop now</p>
+            </div>
+          </div>
+        </div>
+        <!-- <section id="large">
+          <div id="container4"><h2>Top sellers im Books for you</h2></div>
+          <div id="container5">
+            <h2>Home Decor Under $20</h2>
+            <a href="#">Shop now</a>
+          </div>
+        </section> -->
+        <hr />
+        <div>
+          <div id="last">
+            <span>See personalized recommendations</span>
+            <span><button><b>Sign in</b></button></span>
+            <span><small>New Customer?<a href="#" style="color:#007185;text-decoration: none">Start here</small></a></span>
+          </div>
+        </div>
+        <hr />
+      </section>
+    </main>
+    <footer>
+      <div id="navfooter">
+        <div id="gototop">
+          <a id="back" href="#">Back to top</a>
+        </div>
+        <hr />
+        <section id="container6">
+          <div class="foot-heading">
+            <b>Get to Know Us</b>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About Amazon</a></li>
+              <li><a href="#">Investor Relations</a></li>
+              <li><a href="#">Amazon Devices</a></li>
+              <li><a href="#">Amazon Science</a></li>
+            </ul>
+          </div>
+          <div class="foot-heading">
+            <b>Make Money with Us</b>
+            <ul>
+              <li><a href="#">Sell products on Amazon</a></li>
+              <li><a href="#">Sell on Amazon Business</a></li>
+              <li><a href="#">Sell apps on Amazon</a></li>
+              <li><a href="#">Advertise Your Products</a></li>
+              <li><a href="#">Self-Publish with Us</a></li>
+              <li><a href="#">Host an Amazon Hub</a></li>
+              <li><a href="#">> See More Make Money with Us</a></li>
+            </ul>
+          </div>
+          <div class="foot-heading">
+            <b>Amazon Payment Product</b>
+            <ul>
+              <li><a href="#">Amazon Business Card</a></li>
+              <li><a href="#">Shop with Points</a></li>
+              <li><a href="#">Relod Your Balance</a></li>
+              <li><a href="#">Amazon Currency Converter</a></li>
+            </ul>
+          </div>
+          <div class="foot-heading">
+            <b>Let Us Help You</b>
+            <ul>
+              <li><a href="#">Amazon and COVID-19</a></li>
+              <li><a href="#">Your Account</a></li>
+              <li><a href="#">Your Orders</a></li>
+              <li><a href="#">Shipping Rates & Policies</a></li>
+              <li><a href="#">Returns & Replacements</a></li>
+              <li><a href="#">Manage Your Content and Devices</a></li>
+              <li><a href="#">Amazon Assistant</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+          </div>
+        </section>
+        <hr />
+        <section id="container7">
+          <div id="cont7">
+            <div>
+              <a href="#"
+                ><img
+                  src="amazon logo.png"
+                  alt="image"
+                  height="23px"
+                  width="100px"
+              /></a>
+            </div>
+            <!-- <div id="conta7">
+              <div id="language">
+                <a href="#">
+                  <select
+                    name="lang"
+                    id="lang option"
+                    style="color: white; background-color: #0c2c33"
+                  >
+                    <option value="English">English</option>
+                    <option value="US English">US English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Russian">Russian</option>
+                    <option value="French">French</option>
+                    <option value="German">German</option>
+                    <option value=""></option>
+                  </select>
+                </a>
+              </div>
+              <div id="currency">
+                <a href="#"
+                  ><select
+                    name="currency"
+                    id="cuurency option"
+                    style="color: white; background-color: #0c2c33"
+                  >
+                    <option value="dollar">
+                      <span>$ USD-U.S.Dollar</span>
+                    </option>
+                    <option value="Rupee">Rupee</option>
+                    <option value="Dinar">Dinar</option>
+                    <option value=""></option></select
+                ></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><button
+                    style="
+                      color: white;
+                      background-color: #0c2c33;
+                      width: 128px;
+                      height: 17.33px;
+                    "
+                  >
+                    United States
+                  </button></a
+                >
+              </div>
+            </div> -->
+          </div>
+        </section>
+        <div class="foot-panel4">
+          <div class="pages">
+            <a>Condition of Use</a>
+            <a>Privacy Notice</a>
+            <a>Your ads Privace Choices</a>
+          </div>
+          <div class="copyright">
+            © 1996-2023, Amazon.com, Inc. or its affiliates
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
